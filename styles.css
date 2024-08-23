@@ -1,0 +1,430 @@
+.intro {
+    background-color: #4E31AA;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 90vh;
+    padding: 3rem 2rem 0;
+    animation-name: topcolor;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes topcolor {
+    0% {
+        background-color: #3A1078;
+    }
+
+    25% {
+        background-color: #4E31AA;
+    }
+
+    50% {
+        background-color: #3A1078;
+    }
+
+    75% {
+        background-color: #543d9e;
+    }
+
+    100% {
+        background-color: #3b1aa7;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+p {
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navstyle {
+    background-color: #F7F7F8;
+    border-radius: 50px;
+    width: max-content;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.white-link {
+    color: #4E31AA;
+    background-color: #F7F7F8;
+}
+
+.white-link:hover {
+    color: #3A1078;
+}
+
+.open-code {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    font-size: 8em;
+    transform: rotate(-10deg);
+}
+
+.close-code {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    font-size: 8em;
+    transform: rotate(-10deg);
+}
+
+.intro-flex {
+    margin: 0 auto;
+    align-content: center;
+    position: relative;
+}
+
+.my-name {
+    font-size: 8em;
+}
+
+.my-job {
+    font-size: 3em;
+}
+
+.about-me {
+    color: #543d9e;
+    background-color: #F7F7F8;
+    padding: 7rem;
+}
+
+.center-div {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4em;
+    padding: 0 7em;
+}
+
+
+.tim-img {
+    width: 80%;
+    border-radius: 20px 60px;
+}
+
+.mee {
+    font-size: 3.5em;
+}
+
+.me-p {
+    font-size: 1.8em;
+}
+
+.resume {
+    background-color: #4E31AA;
+    color: #F7F7F8;
+    padding: 7rem;
+}
+
+.resume-intro {
+    display: block;
+    padding: 6em;
+}
+
+.resume-flex {
+    display: flex;
+    gap: 20px;
+    max-width: 70%;
+
+}
+
+.coders-img {
+    width: 70%;
+    border-radius: 60px 20px;
+    float: right;
+}
+
+.resume-p {
+    font-size: 1.6em;
+}
+
+.fun {
+    font-size: 1.8em;
+}
+
+.resume-links {
+    color: #F7F7F8;
+    font-size: 1.5em;
+    padding: 1.2em;
+}
+
+.summary-padding {
+    padding: 5rem;
+}
+
+.projects-padding {
+    padding: 6rem 0;
+}
+
+.work-intro {
+    font-size: 1.5em;
+}
+
+.card-scale:hover {
+    transform: scale(1.05)
+}
+
+.cardstyle {
+    color: #3A1078;
+}
+
+.project-links {
+    text-decoration: none;
+}
+
+.ani-icons {
+    width: 4em;
+    height: 4em;
+}
+
+.ani-body {
+    color: #F7F7F8;
+}
+
+.message-color {
+    color: #543d9e;
+    background-color: #F7F7F8;
+}
+
+.messsage-pad {
+    padding: 5rem 10rem;
+}
+
+.submit-btn {
+    background-color: #3A1078;
+    color: #F7F7F8;
+}
+
+.submit-btn:hover {
+    background-color: #543d9e;
+    color: #F7F7F8;
+}
+
+.colour-link {
+    color: #3A1078;
+    font-size: 1em;
+}
+
+.my-footer {
+    color: #F7F7F8;
+    background-color: #3A1078;
+    padding: 0 0.5rem;
+}
+
+.bottomhover:hover {
+    color: #F7F7F8;
+}
+
+@media only screen and (max-width: 767px) {
+    .my-name-first {
+        font-size: 4.5em;
+    }
+
+    .my-name-second {font-size: 3em;}
+
+    .my-job {
+        font-size: 2em;
+    }
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0.2em;
+        text-align: left;
+    }
+
+    .about-img {text-align: center;}
+
+    .about-me {
+        padding: 4rem 2rem;
+    }
+
+    .tim-img {
+        max-width: 100%;
+        border-radius: 20px 60px;
+    }
+
+    .phone-mee {
+        font-size: 3.5em;
+    }
+
+    .phoneme-p {
+        font-size: 1.5em;
+    }
+
+    .intro-head {
+        font-size: 2.5em;
+    }
+
+    .intro-para {
+        font-size: 1.2em;
+    }
+
+    .resume {
+        padding: 0.1rem;
+    }
+
+    .resume-intro {
+        padding: 4em 2em;
+    }
+
+    .timothy {
+        font-size: 1.4em;
+    }
+
+    .resume-p {
+        font-size: 1.2em;
+    }
+
+    .fun {
+        font-size: 1.4em;
+    }
+
+    .resume-links {
+        color: #F7F7F8;
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .summary-padding {
+        padding: 1.5rem;
+    }
+
+    .resume-flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .coders-img {
+        width: 60%;
+        border-radius: 60px 20px;
+        float: none;
+    }
+
+    .projects-padding {
+        padding: 1.2rem 0;
+    }
+
+    .messsage-pad {
+        padding: 2rem;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 941px) {
+    .my-name-first {
+        font-size: 5em;
+    }
+
+    .my-name-second {font-size: 4.5em;}
+
+    .my-job {
+        font-size: 2.3em;
+    }
+    
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0.2em;
+        text-align: left;
+    }
+
+    .about-img {text-align: center;}
+
+    .about-me {
+        padding: 4rem;
+    }
+
+    .intro-head {
+        font-size: 3.5em;
+    }
+
+    .intro-para {
+        font-size: 1.5em;
+    }
+
+    .tim-img {
+        max-width: 100%;
+        border-radius: 20px 60px;
+    }
+
+    .resume {
+        padding: 0.1rem;
+    }
+
+    .resume-intro {
+        padding: 4em;
+    }
+
+    .phone-mee {
+        font-size: 3.5em;
+    }
+
+    .timothy {
+        font-size: 3em;
+    }
+
+    .resume-p {
+        font-size: 1.2em;
+    }
+
+    .fun {
+        font-size: 1.4em;
+    }
+
+    .resume-links {
+        color: #F7F7F8;
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .summary-padding {
+        padding: 4rem;
+    }
+
+    .resume-flex {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .coders-img {
+        width: 40%;
+        border-radius: 60px 20px;
+        float: none;
+    }
+
+    .projects-padding {
+        padding: 1.2rem 0;
+    }
+
+    .messsage-pad {
+        padding: 4rem;
+    }
+}
