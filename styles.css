@@ -269,11 +269,11 @@ p {
     }
 
     .phone-mee {
-        font-size: 3.5em;
+        font-size: 2.8em;
     }
 
     .phoneme-p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .intro-head {
@@ -334,6 +334,21 @@ p {
         padding: 2rem;
     }
 
+    .open-code {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    font-size: 5em;
+    transform: rotate(-10deg);
+}
+
+.close-code {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    font-size: 5em;
+    transform: rotate(-10deg);
+}
 }
 
 
@@ -386,6 +401,10 @@ p {
         font-size: 3.5em;
     }
 
+     .phoneme-p {
+        font-size: 1.2em;
+    }
+
     .timothy {
         font-size: 3em;
     }
@@ -427,4 +446,20 @@ p {
     .messsage-pad {
         padding: 4rem;
     }
+
+        .open-code {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    font-size: 5em;
+    transform: rotate(-10deg);
+}
+
+.close-code {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    font-size: 5em;
+    transform: rotate(-10deg);
+}
 }
