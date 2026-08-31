@@ -443,6 +443,7 @@ section#messag form {
 
     .about-me {
         padding: 4rem 2rem;
+        min-height: auto;
     }
 
     .tim-img {
@@ -467,11 +468,12 @@ section#messag form {
     }
 
     .resume {
-        padding: 0.1rem;
+        padding: 4rem 2rem;
+        min-height: auto;
     }
 
     .resume-intro {
-        padding: 4em 2em;
+        padding: 2rem 1.5rem;
     }
 
     .timothy {
@@ -481,12 +483,73 @@ section#messag form {
     .resume-p {
         font-size: 1.2em;
     }
-}
+
+    section#messag {
+        padding: 3rem 2rem !important;
+        min-height: auto !important;
     }
 
-    .fun {
-        font-size: 1.4em;
+    section#messag > div {
+        width: 100%;
+        padding: 0;
     }
+
+    section#messag form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mee {
+        font-size: 2.5em;
+    }
+
+    .me-p {
+        font-size: 1.2em;
+    }
+
+    .messsage-pad {
+        padding: 3rem 2rem;
+        min-height: auto;
+    }
+
+    .form-control {
+        font-size: 1rem;
+        padding: 0.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+        width: 100%;
+    }
+
+    section#contac {
+        padding: 3rem 2rem !important;
+        min-height: auto !important;
+    }
+
+    section#contac > .summary-padding {
+        padding: 0 !important;
+    }
+
+    .work-intro {
+        font-size: 1.2em;
+    }
+
+    .colour-link {
+        font-size: 0.9em;
+    }
+
+    .my-footer {
+        padding: 3rem 2rem;
+    }
+
+    .resume-links {
+        font-size: 1.2em;
+        padding: 0.8em;
+    }
+}
 
     .resume-links {
         color: #F7F7F8;
