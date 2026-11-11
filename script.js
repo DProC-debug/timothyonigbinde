@@ -10,13 +10,13 @@ const experience = [
   {
     role: "Software Engineering Intern",
     org: "AAI Labs",
-    dates: "TODO: Start – Present", // TODO: add your dates, e.g. "Jun 2025 – Present"
+    dates: "", // TODO: add your dates, e.g. "Jun 2025 – Present" (hidden while empty)
     location: "Remote",
     points: [
-      // TODO: replace with 1–2 lines on what you do at AAI Labs
-      "TODO: one line on what you build or own at AAI Labs.",
+      "Working on a system that uses vision-language models to read and extract information from 2D manufacturing and engineering drawings.",
+      // TODO: add a line on your own contribution (e.g. the extraction pipeline, VLM evaluation, backend API)
     ],
-    tags: ["Python", "LLMs"], // TODO: adjust
+    tags: ["Vision-language models"], // TODO: add your tech stack (e.g. Python, FastAPI, model names, PostgreSQL)
   },
   // { role: "", org: "", dates: "", location: "", points: [""], tags: [""] },
 ];
@@ -49,14 +49,14 @@ const featuredProjects = [
     live: "https://cryptoprices-sigma.vercel.app",
   },
   {
-    kind: "Computer vision · VLMs",
+    kind: "Vision-language models",
     title: "Engineering Drawing VLM",
-    // TODO: refine this one-liner
     description:
-      "Using vision-language models to parse 2D manufacturing drawings into structured data such as dimensions, tolerances and annotations.",
-    tags: ["Python", "Vision-language models", "LLM evaluation"],
-    repo: "", // TODO: add link if public
+      "A system that uses vision-language models to read and extract information from 2D manufacturing and engineering drawings. Built during my internship at AAI Labs.",
+    tags: ["Vision-language models"], // TODO: add your tech stack (e.g. Python, FastAPI, model names, PostgreSQL)
+    repo: "",
     live: "",
+    note: "AAI Labs", // shown instead of links when there's no public repo
   },
 ];
 
@@ -191,7 +191,7 @@ function renderExperience() {
       <li class="timeline__item reveal">
         <span class="timeline__dot" aria-hidden="true"></span>
         <article class="timeline__card">
-          <p class="timeline__meta">${esc(job.dates)}${job.location ? " · " + esc(job.location) : ""}</p>
+          <p class="timeline__meta">${[job.dates, job.location].filter(Boolean).map(esc).join(" · ")}</p>
           <h3 class="timeline__role">${esc(job.role)}</h3>
           <p class="timeline__org">${esc(job.org)}</p>
           ${job.points?.length ? `<ul class="timeline__points">${job.points.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>` : ""}
@@ -212,7 +212,7 @@ function renderProjects() {
         <article class="card reveal" data-tilt>
           <div class="card__top">
             <span class="card__kind">${esc(p.kind)}</span>
-            <div class="card__links">${links || `<span class="card__note">Private</span>`}</div>
+            <div class="card__links">${links || `<span class="card__note">${esc(p.note || "Private")}</span>`}</div>
           </div>
           <h3 class="card__title">${esc(p.title)}</h3>
           <p class="card__desc">${esc(p.description)}</p>
