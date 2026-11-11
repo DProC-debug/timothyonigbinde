@@ -4,354 +4,321 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timothy Onigbinde</title>
+  <title>Timothy Onigbinde | Backend &amp; AI Engineer</title>
+  <meta name="description"
+    content="Timothy Onigbinde is a backend and AI engineer who builds reliable APIs, databases and LLM-powered systems, from multi-agent trading bots to RAG pipelines. Open to remote roles.">
+  <meta name="author" content="Timothy Onigbinde">
+  <meta name="theme-color" content="#0a0e17">
+  <link rel="canonical" href="https://dproc-debug.github.io/timothyonigbinde/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dproc-debug.github.io/timothyonigbinde/">
+  <meta property="og:title" content="Timothy Onigbinde | Backend & AI Engineer">
+  <meta property="og:description"
+    content="I build reliable backends and LLM-powered systems, from APIs and databases to multi-agent AI.">
+  <meta property="og:image" content="https://dproc-debug.github.io/timothyonigbinde/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Timothy Onigbinde, Backend & AI Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@tot_crypto">
+  <meta name="twitter:title" content="Timothy Onigbinde | Backend & AI Engineer">
+  <meta name="twitter:description"
+    content="I build reliable backends and LLM-powered systems, from APIs and databases to multi-agent AI.">
+  <meta name="twitter:image" content="https://dproc-debug.github.io/timothyonigbinde/og-image.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 
   <link rel="stylesheet" href="styles.css">
-
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-  <section id="intr" class="intro">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
-    <div class="container navstyle fixed-top">
-      <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#about" class="nav-link white-link activelink">About</a></li>
-          <li class="nav-item"><a href="#resum" class="nav-link white-link">Resume</a></li>
-          <li class="nav-item"><a href="#messag" class="nav-link white-link">Message</a></li>
-          <li class="nav-item"><a href="#contac" class="nav-link white-link">Contact</a></li>
-        </ul>
-      </header>
-    </div>
+  <!-- SVG icon sprite (inline so there are no extra requests) -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z" />
+    </symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z" />
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93Zm-1.29 19.5h2.04L6.48 3.24H4.3l13.31 17.41Z" />
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm18 2-10 7L2 6" />
+    </symbol>
+    <symbol id="i-external" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3" />
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        d="M5 12h14M13 6l6 6-6 6" />
+    </symbol>
+  </svg>
 
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="nav__brand" href="#top" aria-label="Timothy Onigbinde, back to top">
+        <span class="nav__mono" aria-hidden="true">TO</span>
+        <span class="nav__name">Timothy Onigbinde</span>
+      </a>
 
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Open menu">
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+      </button>
 
-    <div class="intro-flex">
-      <i class="bi bi-code open-code"></i>
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#experience">Experience</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#skills">Skills</a></li>
+        <li><a class="nav__link nav__link--cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <h1 class="my-name my-name-first">Hi, I'm Timothy.</h1>
-      <h2 class="my-job">A Full Stack Web Developer and AI Engineer</h2>
-      <br>
-      <p>My goal is to bring the web to the next level, making it more interactive, fun and functional.</p>
-
-      <i class="bi bi-code-slash close-code"></i>
-    </div>
-
-
-  </section>
-
-  <section id="about" class="about-me">
-
-    <div class="center-div">
-      <h1 class="my-name my-name-second">I'm Timothy.</h1>
-    </div>
-
-    <div class="about-grid">
-      <div class="about-img">
-        <img class="tim-img" src="images/tim.jpg" alt="timothy's image">
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__blob hero__blob--a"></div>
+        <div class="hero__blob hero__blob--b"></div>
+        <div class="hero__glow"></div>
       </div>
 
+      <div class="container hero__inner">
+        <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Open to remote backend roles</p>
 
-      <div>
-        <h3 class="mee intro-head">I'm a Full Stack Web Developer working remotely from Nigeria.</h3>
-        <p class="me-p intro-para">My excitement about new technologies have carried me through as a web developer,
-          proficient in
-          Project
-          Designing, Front and Back End development.</p>
-        <p class="me-p intro-para">I work efficiently in a team. Outside work, I enjoy hanging out with friends, playing
-          games and
-          music,
-          travelling to all kinds of places and
-          connecting with nature.
+        <h1 class="hero__title reveal" id="hero-title">
+          Hi, I'm <span class="text-gradient">Timothy Onigbinde</span>
+        </h1>
+
+        <p class="hero__role reveal">
+          <span class="hero__prompt" aria-hidden="true">&gt;</span>
+          <span class="hero__typed" aria-hidden="true" data-roles='["Backend Engineer","AI Engineer","Full-Stack Developer"]'>Backend Engineer</span><span class="hero__caret" aria-hidden="true"></span>
+          <span class="sr-only">Backend Engineer, AI Engineer and Full-Stack Developer</span>
         </p>
-      </div>
-    </div>
 
-  </section>
+        <p class="hero__lead reveal">
+          I build reliable backends and LLM-powered systems, from APIs and databases to multi-agent AI.
+        </p>
 
-
-  <section id="resum" class="resume">
-
-
-    <div class="resume-intro">
-      <div>
-        <h3 class="mee timothy">Timothy Onigbinde</h3>
-        <p class="resume-p">Make The Web <u><b class="fun">Fun</b></u>ctional</p>
-        <a class="resume-links" href="mailto:timothyonigbinde5@gmail.com"><i class="bi bi-envelope"></i></a>
-        <a class="resume-links" href="http://www.linkedin.com/in/timothy-onigbinde-795022215"><i
-            class="bi bi-linkedin"></i></a>
-        <a class="resume-links" href="http://x.com/tot_crypto"><i class="bi bi-twitter-x"></i></a>
-
-
-      </div>
-
-    </div>
-
-    <div class="summary-padding">
-      <h3 class="mee border-bottom phone-mee">Work Experience</h3>
-
-      <p class="work-intro resume-p">These are some of my works as a developer and product designer summing over 4 years
-        of learning and
-        building
-      </p>
-
-      <div class="projects-padding">
-
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <a class="project-links" href="https://dproc-debug.github.io/The-Onigbindes/">
-            <div class="col card-scale">
-              <div class="card">
-                <img src="images/family.png" class="card-img-top" alt="the onigbinde">
-                <div class="card-body">
-                  <h5 class="card-title cardstyle">The Onigbindes</h5>
-                  <p class="card-text cardstyle">My personal family website, where I introduce my family</p>
-                  <p class="card-text cardstyle">2024 - Now</p>
-                </div>
-              </div>
-            </div>
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="#projects">
+            View my work
+            <svg class="icon" aria-hidden="true"><use href="#i-arrow" /></svg>
           </a>
-
-          <a class="project-links" href="https://dproc-debug.github.io/Tim-website/">
-            <div class="col card-scale">
-              <div class="card">
-                <img src="images/mywebsite.png" class="card-img-top" alt="my first website">
-                <div class="card-body">
-                  <h5 class="card-title cardstyle">First Portfolio Website</h5>
-                  <p class="card-text cardstyle">The first portfolio website that I built as a developer</p>
-                  <p class="card-text cardstyle">2024 - Now</p>
-                </div>
-              </div>
-            </div>
-
-          </a>
-
-          <a class="project-links" href="https://dproc-debug.github.io/GD-Game-Website/">
-            <div class="col card-scale">
-              <div class="card">
-                <img src="images/gamewebsite.png" class="card-img-top" alt="game website">
-                <div class="card-body">
-                  <h5 class="card-title cardstyle">Game Website</h5>
-                  <p class="card-text cardstyle">Practice Website that I built from scratch</p>
-                  <p class="card-text cardstyle">2023 - 2024</p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-          <a class="project-links" href="https://dproc-debug.github.io/Spark-Exchange/">
-            <div class="col card-scale">
-              <div class="card">
-                <img src="images/spark.png" class="card-img-top" alt="spark exchange">
-                <div class="card-body">
-                  <h5 class="card-title cardstyle">Spark Exchange</h5>
-                  <p class="card-text cardstyle">One of my first work, pretty old</p>
-                  <p class="card-text cardstyle">2021 - 2022</p>
-                </div>
-              </div>
-            </div>
-          </a>
-
-
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
         </div>
 
+        <ul class="socials reveal" aria-label="Social links">
+          <li><a class="icon-link" href="https://github.com/DProC-debug" target="_blank" rel="noopener"
+              aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#i-github" /></svg></a></li>
+          <li><a class="icon-link" href="https://www.linkedin.com/in/timothy-onigbinde-795022215" target="_blank"
+              rel="noopener" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg></a></li>
+          <li><a class="icon-link" href="https://x.com/tot_crypto" target="_blank" rel="noopener"
+              aria-label="X (Twitter)"><svg class="icon" aria-hidden="true"><use href="#i-x" /></svg></a></li>
+          <li><a class="icon-link" href="mailto:timothyonigbinde5@gmail.com" aria-label="Email"><svg class="icon"
+                aria-hidden="true"><use href="#i-mail" /></svg></a></li>
+        </ul>
       </div>
+    </section>
 
-    </div>
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <figure class="about__photo reveal">
+          <picture>
+            <source srcset="images/tim.webp" type="image/webp">
+            <img src="images/tim.jpg" alt="Portrait of Timothy Onigbinde" width="560" height="895" loading="lazy"
+              decoding="async">
+          </picture>
+        </figure>
 
-    <div class="summary-padding">
-      <h3 class="mee border-bottom phone-mee">Education</h3>
-      <p class="resume-p">Currently studying for Bachelor Computer Science With Economics</p>
-      <p class="resume-p">Obafemi Awolowo University</p>
-
-    </div>
-
-    <div class="container px-4 py-5 summary-padding" id="icon-grid">
-      <h2 class="pb-2 border-bottom mee phone-mee">Skills</h2>
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/coding (1).gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">HTML5</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/css.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">CSS3</h3>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/web-developer.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">ReactJs</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/coding (2).gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">Javascript</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/coding.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">NodeJs</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/teamwork.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">ExpressJs</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/api.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">API</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/coding (3).gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">Typescript</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/html.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">PostGreSQL</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/algorithm.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">Python</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/binary.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">RAG</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/programmer.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">Advanced Prompt Engineering</h3>
-          </div>
-        </div>
-
-        <div class="col d-flex align-items-start">
-          <img class="bi text-body-secondary flex-shrink-0 me-3 ani-icons" src="images/icons/redesign.gif" alt="">
-          <div>
-            <h3 class="fw-bold mb-0 fs-4 ani-body">RLHF</h3>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-  </section>
-
-  <section id="messag" class="message-color messsage-pad ">
-    <div>
-      <h3 class="mee phone-mee">Message Me</h3>
-      <p class="resume-p">Let's get your next project the best looks and functionality</p>
-
-      <form action="https://formspree.io/f/xgaeonol" method="POST">
-        <div class="mb-3">
-          <label for="name" class="form-label work-intro resume-p">Name</label>
-          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label work-intro resume-p">Email Address</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label work-intro resume-p">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-lg submit-btn">Submit</button>
-      </form>
-
-  </section>
-
-  <section id="contac" class="summary-padding message-color">
-    <div class="summary-padding">
-      <h3 class="mee phone-mee">Contact</h3>
-
-      <p class="work-intro">Email</p>
-      <a class="project-links" href="mailto:timothyonigbinde5@gmail.com">
-        <p class="colour-link">> timothyonigbinde5@gmail.com</p>
-      </a>
-
-      <p class="work-intro">Github</p>
-      <a class="project-links" href="https://github.com/DProC-debug">
-        <p class="colour-link">> timothyonigbinde</p>
-      </a>
-
-      <p class="work-intro">LinkedIn</p>
-      <a class="project-links" href="http://www.linkedin.com/in/timothy-onigbinde-795022215">
-        <p class="colour-link">> timothyonigbinde</p>
-      </a>
-
-      <p class="work-intro">Phone</p>
-      <a class="project-links" href="tel:+2348158006625">
-        <p class="colour-link">> +2348158006625</p>
-      </a>
-    </div>
-
-
-  </section>
-
-  <footer class="my-footer py-5">
-    <div class="summary-padding">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#intr" class="nav-link p-0 ani-body bottomhover">Intro</a></li>
-            <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 ani-body bottomhover">About</a></li>
-            <li class="nav-item mb-2"><a href="#resum" class="nav-link p-0 ani-body bottomhover">Resume</a></li>
-            <li class="nav-item mb-2"><a href="#messag" class="nav-link p-0 ani-body bottomhover">Message</a></li>
-            <li class="nav-item mb-2"><a href="#contac" class="nav-link p-0 ani-body bottomhover">Contact</a></li>
+        <div class="about__body">
+          <p class="section__label reveal">01 · About</p>
+          <h2 class="section__title reveal" id="about-title">Backend engineer, moving deeper into AI.</h2>
+          <p class="reveal">
+            I'm a software engineer based in Nigeria, working remotely. I started out shipping full-stack apps on the
+            PERN stack (PostgreSQL, Express, React, Node), and that's where I learnt to love the backend: clean APIs,
+            solid data models and systems that don't fall over.
+          </p>
+          <p class="reveal">
+            Now I'm focused on AI engineering: multi-agent LLM systems, RAG built from first principles,
+            fine-tuning and evaluating models. I'm also studying Computer Science with Economics at Obafemi Awolowo
+            University.
+          </p>
+          <ul class="chips reveal" aria-label="Quick facts">
+            <li class="chip">📍 Nigeria · Remote</li>
+            <li class="chip">🎓 OAU · CS with Economics</li>
+            <li class="chip">⚙️ Node / Python</li>
+            <li class="chip">🤖 LLM agents &amp; RAG</li>
           </ul>
         </div>
       </div>
-      <div class="d-flex flex-column justify-content-between py-4 my-4 border-top">
-        <a class="ani-body" href="https://www.flaticon.com/free-animated-icons/html" title="html animated icons">Credits
-          - Freepik - Flaticon</a>
-        <br>
-        <p>© 2024 Timothy Onigbinde. All rights reserved.</p>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section section--alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__label reveal">02 · Experience</p>
+          <h2 class="section__title reveal" id="experience-title">Where I've been working</h2>
+        </header>
+
+        <div class="experience">
+          <!-- Rendered from the `experience` array in script.js -->
+          <ol class="timeline" id="timeline-list"></ol>
+
+          <aside class="edu reveal" aria-labelledby="edu-title">
+            <h3 class="edu__title" id="edu-title">Education</h3>
+            <div class="edu__item">
+              <p class="edu__name">B.Sc. Computer Science with Economics</p>
+              <p class="edu__meta">Obafemi Awolowo University · In progress</p>
+            </div>
+            <h3 class="edu__title">Certifications</h3>
+            <div class="edu__item">
+              <p class="edu__name">Introduction to LLMs</p>
+              <p class="edu__meta">Vilnius University</p>
+            </div>
+          </aside>
+        </div>
       </div>
+    </section>
 
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__label reveal">03 · Projects</p>
+          <h2 class="section__title reveal" id="projects-title">Things I've built</h2>
+          <p class="section__intro reveal">A few projects I'm proud of, mostly backend and AI systems.</p>
+        </header>
+
+        <!-- Rendered from the `featuredProjects` array in script.js -->
+        <div class="projects-grid" id="featured-projects"></div>
+
+        <h3 class="subhead reveal">AI engineering work</h3>
+        <!-- Rendered from the `aiWork` array in script.js -->
+        <div class="mini-grid" id="ai-work"></div>
+
+        <details class="earlier reveal">
+          <summary class="earlier__summary">
+            <span>Earlier work</span>
+            <span class="earlier__hint">Front-end projects from 2021–2024</span>
+          </summary>
+          <!-- Rendered from the `earlierWork` array in script.js -->
+          <ul class="earlier__list" id="earlier-work"></ul>
+        </details>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section--alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__label reveal">04 · Skills</p>
+          <h2 class="section__title reveal" id="skills-title">My toolbox</h2>
+        </header>
+        <!-- Rendered from the `skills` array in script.js -->
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div class="contact__intro">
+          <p class="section__label reveal">05 · Contact</p>
+          <h2 class="section__title reveal" id="contact-title">Let's build something together.</h2>
+          <p class="reveal">
+            I'm currently looking for remote backend and AI engineering roles. If you're hiring, or have a project
+            in mind, my inbox is open. I usually reply within a day or two.
+          </p>
+
+          <ul class="contact__links reveal">
+            <li>
+              <a href="mailto:timothyonigbinde5@gmail.com">
+                <svg class="icon" aria-hidden="true"><use href="#i-mail" /></svg>
+                <span><span class="contact__k">Email</span>timothyonigbinde5@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/DProC-debug" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-github" /></svg>
+                <span><span class="contact__k">GitHub</span>github.com/DProC-debug</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/timothy-onigbinde-795022215" target="_blank" rel="noopener">
+                <svg class="icon" aria-hidden="true"><use href="#i-linkedin" /></svg>
+                <span><span class="contact__k">LinkedIn</span>in/timothy-onigbinde</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contact-form" action="https://formspree.io/f/xgaeonol" method="POST"
+          novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required minlength="2"
+              aria-describedby="name-error">
+            <p class="field__error" id="name-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required
+              aria-describedby="email-error">
+            <p class="field__error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"
+              aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error" aria-live="polite"></p>
+          </div>
+          <!-- Honeypot for bots (Formspree ignores submissions with this filled) -->
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_subject" value="New message from your portfolio">
+
+          <button class="btn btn--primary btn--block" type="submit">
+            <span class="btn__label">Send message</span>
+            <span class="spinner" aria-hidden="true"></span>
+          </button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Timothy Onigbinde</p>
+      <p class="footer__built"><span aria-hidden="true">&lt;/&gt;</span> Built by Timothy</p>
     </div>
-
   </footer>
-
-
 </body>
 
 </html>
