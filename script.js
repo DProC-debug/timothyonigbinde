@@ -91,7 +91,6 @@ const aiWork = [
 
 /** Older front-end work, shown in the collapsed "Earlier work" row. */
 const earlierWork = [
-  { title: "The Onigbindes", description: "Family website", years: "2024", url: "https://dproc-debug.github.io/The-Onigbindes/" },
   { title: "First portfolio", description: "My first portfolio site", years: "2024", url: "https://dproc-debug.github.io/Tim-website/" },
   { title: "Game Website", description: "Practice site built from scratch", years: "2023–24", url: "https://dproc-debug.github.io/GD-Game-Website/" },
   { title: "Spark Exchange", description: "One of my first projects", years: "2021–22", url: "https://dproc-debug.github.io/Spark-Exchange/" },
