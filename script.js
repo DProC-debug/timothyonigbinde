@@ -27,7 +27,7 @@ const experience = [
  */
 const featuredProjects = [
   {
-    kind: "Multi-agent AI · Buildathon",
+    kind: "Multi-agent AI",
     title: "CryptoTradingAgent",
     description:
       "A multi-agent LLM trading system that trades Hyperliquid perpetuals autonomously, driven by Nansen on-chain Smart Money data. Built for the Nansen buildathon.",
