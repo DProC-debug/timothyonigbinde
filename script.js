@@ -10,13 +10,14 @@ const experience = [
   {
     role: "Software Engineering Intern",
     org: "AAI Labs",
-    dates: "", // TODO: add your dates, e.g. "Jun 2025 – Present" (hidden while empty)
+    dates: "Oct – Nov 2026",
     location: "Remote",
+    // Kept high-level on purpose (NDA).
     points: [
       "Working on a system that uses vision-language models to read and extract information from 2D manufacturing and engineering drawings.",
-      // TODO: add a line on your own contribution (e.g. the extraction pipeline, VLM evaluation, backend API)
+      "Building the extraction pipeline and evaluating vision-language models.",
     ],
-    tags: ["Vision-language models"], // TODO: add your tech stack (e.g. Python, FastAPI, model names, PostgreSQL)
+    tags: ["Python", "FastAPI", "Docker", "PostgreSQL", "Vision-language models"],
   },
   // { role: "", org: "", dates: "", location: "", points: [""], tags: [""] },
 ];
@@ -52,8 +53,9 @@ const featuredProjects = [
     kind: "Vision-language models",
     title: "Engineering Drawing VLM",
     description:
-      "A system that uses vision-language models to read and extract information from 2D manufacturing and engineering drawings. Built during my internship at AAI Labs.",
-    tags: ["Vision-language models"], // TODO: add your tech stack (e.g. Python, FastAPI, model names, PostgreSQL)
+      "A system that uses vision-language models to read and extract information from 2D manufacturing and engineering drawings. Part of my internship at AAI Labs.",
+    points: ["My part: the extraction pipeline and evaluating vision-language models"],
+    tags: ["Python", "FastAPI", "Docker", "PostgreSQL", "VLMs"],
     repo: "",
     live: "",
     note: "AAI Labs", // shown instead of links when there's no public repo
@@ -152,6 +154,7 @@ const skills = [
     group: "Tools",
     items: [
       { name: "Git", icon: "git/git-original" },
+      { name: "Docker", icon: "docker/docker-original" },
       { name: "Vercel", icon: "vercel/vercel-original", invert: true },
     ],
   },
