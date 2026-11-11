@@ -67,25 +67,25 @@ const aiWork = [
     description:
       "Compared GPT-4o, Claude Sonnet 4.5, Gemini 2.5 Pro, GLM-4.6 and Llama 3.3-70B on text, data and code tasks via the OpenRouter API, checking code outputs by executing them.",
     tags: ["OpenRouter", "Python", "Evaluation"],
-    link: "", // TODO: [link]
+    link: "https://colab.research.google.com/drive/17BvpZ7FaOdf_3OKizRx30XhjGYhLQRlV",
   },
   {
     title: "RAG from scratch",
     description: "Chunking, vectorisation and retrieval implemented without frameworks.",
     tags: ["Python", "Embeddings", "Retrieval"],
-    link: "", // TODO: [link]
+    link: "https://colab.research.google.com/drive/1TuJL1WP1ZgduJOYrtuKl5Zi9AnzFm8WO",
   },
   {
     title: "Quantization & model analysis",
     description: "Implemented quantization and parameter analysis from scratch in NumPy and Pandas.",
     tags: ["NumPy", "Pandas"],
-    link: "", // TODO: [link]
+    link: "https://colab.research.google.com/drive/11j-kzH9ZwWAroFDyyjj1T7KkXfg9OJGr",
   },
   {
     title: "QLoRA fine-tuning",
     description: "Fine-tuned Microsoft's Phi-2 with QLoRA.",
     tags: ["Hugging Face", "QLoRA", "Phi-2"],
-    link: "", // TODO: [link]
+    link: "https://colab.research.google.com/drive/14XBf6FKjpz24axmqndIM1uhkEZXRsFRt",
   },
 ];
 
